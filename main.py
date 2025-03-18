@@ -65,7 +65,7 @@ def batalha(heroi, vilao):
 def main():
     # aqui da pra mudar os atributos dos personagens, adicionar itens e habilidades pro heroi e etc
     heroi = Heroi("Link", 100, 20, 10)
-    vilao = Vilao("Ganon", 120, 25, 8)
+    vilao = Vilao("Ganon", 157, 25, 8)
 
     heroi.habilidades.append("Cura")
     heroi.itens.append("Escudo")
